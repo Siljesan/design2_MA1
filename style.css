@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-color: rgb(115, 131, 115);
+  background-image: url(img/22.svg);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 1rem;
+}
+.logo img {
+  width: 15rem;
+}
+.navbar ul li {
+  list-style-type: none;
+  padding-right: 2rem;
+  font-size: 1.5rem;
+}
+.navbar ul {
+  display: flex;
+  margin-left: 3rem;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  padding-bottom: 2rem;
+}
+.hero {
+  width: 100%;
+  height: 30rem;
+  background-image: url(img/pexels-designecologist-1005058.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.hero-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 35rem;
+  height: 10rem;
+  color: white;
+  position: absolute;
+  right: 5rem;
+  bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-text h1 {
+  font-weight: 400;
+  font-size: 3rem;
+  width: 30rem;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+.card {
+  width: 15rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  background-color: rgb(201, 216, 197);
+}
+.card-text {
+  padding: 0.5rem;
+}
+.card-btn {
+  width: 100%;
+  height: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(85, 131, 85);
+  color: rgb(241, 255, 238);
+}
+.card img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.info {
+  width: 80%;
+  margin: 0 auto;
+  color: rgb(241, 255, 238);
+  padding: 1rem;
+}
